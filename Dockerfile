@@ -11,4 +11,4 @@ ADD speedtest.sh /app/speedtest/
 RUN chmod +x /app/speedtest/speedtest.sh
 RUN rm -rf /var/lib/apt/lists/*
 
-CMD sh -c /app/speedtest/speedtest.sh > /logs/speedtest.log 2>&1
+CMD sh -c /app/speedtest/speedtest.sh
