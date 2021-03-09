@@ -32,7 +32,7 @@ DB_NAME |  | The influx database in which you want to store the results
 ### Docker
 docker run example:
 ```
-docker run -e TEST_INTERVAL=5m -e DB_HOST="http://192.168.1.100:8086" -e DB_NAME=speedtest deetoreu/speedtest-cli-influx:latest
+docker run -e TEST_INTERVAL=5m -e DB_HOST="192.168.1.100:8086" -e DB_NAME=speedtest deetoreu/speedtest-cli-influx:latest
 ```
 or add the detach `-d` flag to run in the background
 
